@@ -3,7 +3,7 @@ import streamlit as st
 # Embedded song lyrics
 songs = [
     {
-        "title": "በረከትና ጥበብ ምስጋና",
+        "title": "1.በረከትና ጥበብ ምስጋና",
         "lyrics": """
 1.ከስሞች በላይ ታላቅ ስም ያለዉ ኢየሱስ ነው፣ 
 እግዚአብሔር ያለልክ ከፍ ከፍ የረገዉ፣ 
@@ -36,7 +36,7 @@ AV : https://www.youtube.com/watch?v=xHgXstA8d0g
 """
     },
     {
-        "title": "አሁንስ ጣፍጦኛል",
+        "title": "2.አሁንስ ጣፍጦኛል",
         "lyrics": """
 1.መርከብ ያለ መሪ እንደሚዋዥቀው 
 ነበረ ህይወቴ ማእበል የሞላው፣ 
@@ -74,7 +74,7 @@ AV : https://www.youtube.com/watch?v=xHgXstA8d0g
 """
     },
     {
-        "title": "ሊነጋ ሲል ጨለማው ይበረታል!",
+        "title": "3.ሊነጋ ሲል ጨለማው ይበረታል!",
         "lyrics": """
 ሊነጋ ሲል ጨለማው ይበረታል ከቶ የማይነጋ ይመስላል
 ንጉስ እግዚአብሔር ይናገራል ጨለማውም ይታዘዘዋል
@@ -104,7 +104,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ማዳን የአንተ ነው!",
+        "title": "4.ማዳን የአንተ ነው!",
         "lyrics": """
 ማዳን የአንተ ነው ሁሉ ተችሎሃል 
 ስምህም ብርቱ ነው በሰልፍ አሸንፏል 
@@ -135,7 +135,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "በዋጋ ገዝቶኛል !",
+        "title": "5.በዋጋ ገዝቶኛል !",
         "lyrics": """
 በዋጋ ገዝቶኛል የራሴ አይደለሁም 
 የመንፈሱ ማደሪያ ለእርሱ የተለየሁኝ (2*)
@@ -162,7 +162,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ታላቅ አምላክ ሃያል አምላክ! ",
+        "title": "6.ታላቅ አምላክ ሃያል አምላክ! ",
         "lyrics": """
 
 1.የአህዛብ አማልክት ጆሮ አላቸው አይሰሙ
@@ -194,7 +194,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ገና ይወርዳል! ",
+        "title": "7.ገና ይወርዳል! ",
         "lyrics": """
 1.መች በዚህ ያበቃል የእግዚአብሄር ማዳኑ 
 በአለም ይሰበካል የምስራች ቃሉ
@@ -216,14 +216,16 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 የሞተው ሲነሳ ህይወት ሲዘራበት
 እናያለን ገና ጌታ ሲከብርበት
 
+Sound/Video:
 
+https://www.youtube.com/watch?v=brlNYcQk5So
 
 
 """
     }
 ,
     {
-        "title": "አለና በምስጋና ድል! ",
+        "title": "8.አለና በምስጋና ድል! ",
         "lyrics": """
 አለና በምስጋና ድል (2X)
 ወስኛለሁ ጌታን ላመሰግን(2X)
@@ -251,7 +253,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "አይተናል አይተናል! ",
+        "title": "9.አይተናል አይተናል! ",
         "lyrics": """
 አይተናል አይተናል ለርሱ ምን ይሳናል
 ተራራዉን ሜዳ ማድረግ ያዉቅበታል 
@@ -287,7 +289,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "እናስተውለው! ",
+        "title": "10.እናስተውለው! ",
         "lyrics": """
 1.ፍቅር ስፍራ ለቆ ጥላቻ ሲስፋፋ
 ትህትና ቀርቶ ትዕቢት ሲንሰራፋ
@@ -309,7 +311,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ወንጌል ለፍጥረት እንሰብካለን! ",
+        "title": "11.ወንጌል ለፍጥረት እንሰብካለን! ",
         "lyrics": """
 ወደ አለም ሁሉ እንሄዳለን
 ወንጌል ለፍጥረት እንሰብካለን
@@ -339,7 +341,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ዋላ የውሃን ምንጭ! ",
+        "title": " 12.ዋላ የውሃን ምንጭ! ",
         "lyrics": """
 
 ዋላ የውሃን ምንጭ እንደሚናፍቀው 
@@ -374,7 +376,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "አገራችን በሰማይ ነው! ",
+        "title": "13.አገራችን በሰማይ ነው! ",
         "lyrics": """
 
 1.የዘንባባ ዝንጣፊ በእጆቻችን ይዘን 
@@ -405,7 +407,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ዋጋው በብር በወርቅ",
+        "title": "14. ዋጋው በብር በወርቅ",
         "lyrics": """
 
 1.የምድር ጥበብ ዕዉቀት ተደምሮ ወርቁ 
@@ -438,7 +440,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " የሱስ ብቻ ገናና ነው ! ",
+        "title": "15. የሱስ ብቻ ገናና ነው ! ",
         "lyrics": """
 
 1.ከሞት ተነስቶ በክብር ያለው
@@ -471,7 +473,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " የደረቀው ይለመልማል ! ",
+        "title": "16. የደረቀው ይለመልማል ! ",
         "lyrics": """
 1.የደረቀው ይለመልማል የታሰረው ተፈቶ ይዘላል
 የታመመው ይፈወሳል የሞተውም ህይወት ያገኛል 
@@ -497,7 +499,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ይቻለዋል እግዚአብሔር! ",
+        "title": "17. ይቻለዋል እግዚአብሔር! ",
         "lyrics": """
 1.የእስራኤል ጩኸት ለእግዚአብሔር ደረሰ
 በባርነት ግዛት ልጆቹን አሰበ 
@@ -530,7 +532,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ድል ላደረገው ለጌታ ክብር ",
+        "title": "18. ድል ላደረገው ለጌታ ክብር ",
         "lyrics": """
 
 ድል ላደረገው ለጌታ ክብር ክበር በሉት
@@ -559,7 +561,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ጆሆቫ ሮሂ ! ",
+        "title": "19. ጆሆቫ ሮሂ ! ",
         "lyrics": """
 
 1.ከቶ ሲደክመኝ መሄድ ሲያቅተኝ 
@@ -592,7 +594,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ጸጋህ እረድቶናል! ",
+        "title": "20. ጸጋህ እረድቶናል! ",
         "lyrics": """
 ጸጋህ እረድቶናል ጸጋህ አግዞናል
 ከኛማ ምን አለን ምን ተገኝቶብናል
@@ -625,7 +627,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ዘመን አልፎ ዘመን ቢተካ ",
+        "title": "21. ዘመን አልፎ ዘመን ቢተካ ",
         "lyrics": """
 1.የአለም እውቀት ጥበብ ብልፅግና ሁሉ፣ 
 ብናወዳድረው ከመስቀሉ፣ 
@@ -658,7 +660,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ከንቱ ከንቱ ! ",
+        "title": "22. ከንቱ ከንቱ ! ",
         "lyrics": """
 ከንቱ ከንቱ የከንቱ ከንቱ 
 ሁሉም ከንቱ ነው፣ 
@@ -690,7 +692,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " መንፈስ ቅዱስ ",
+        "title": "23. መንፈስ ቅዱስ ",
         "lyrics": """
 መንፈስ ቅዱስ መንፈስ ቅዱስ፣ 
 አንተ እግዚአብሔር ነህ ቀድሞ የነበርክ 
@@ -721,7 +723,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " እግዚአብሔር በዙፋኑ ላይ ነው",
+        "title": "24. እግዚአብሔር በዙፋኑ ላይ ነው",
         "lyrics": """
 እግዚአብሔር በዙፋኑ ላይ ነው 
 እግዚአብሔር በማደሪያው ላይ ነው፣ 
@@ -752,7 +754,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "በኤደን የጀመራት ",
+        "title": "25. በኤደን የጀመራት ",
         "lyrics": """
 በኤደን የጀመራት ጋብቻ ይህች ናት፣ 
 ጌታ የመሰረታት፣ 
@@ -784,7 +786,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " መሸነፍ የታለ ኢየሱስን ይዞ ",
+        "title": "26. መሸነፍ የታለ ኢየሱስን ይዞ ",
         "lyrics": """
 መሸነፍ የታለ ኢየሱስን ይዞ
 የጦር መሪውን ከፊት አስቀድሞ 
@@ -818,7 +820,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ሰላሜ እንደ ወንዝ ፈሰሰ ",
+        "title": "27. ሰላሜ እንደ ወንዝ ፈሰሰ ",
         "lyrics": """
 (ሰላሜ እንደ ወንዝ ፈሰሰ) /2/
 (ጆሆቫ ሻሎም በልቤ ገብቶ
@@ -847,7 +849,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ምስጋና የሚገባውን ",
+        "title": "28. ምስጋና የሚገባውን ",
         "lyrics": """
 ምስጋና የሚገባውን ጌታ አመሰግነዋው 
 አምልኮ የሚገባውን አምላኬን አመልከዋለሁ 
@@ -878,7 +880,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " አሸናፊው ጌታዬ",
+        "title": "29. አሸናፊው ጌታዬ",
         "lyrics": """
 አሸናፊው ጌታዬ ባለ ድል አድርጎኛል 
 አሸናፊው እየሱስ ባለ ድል አድርጎኛል 
@@ -908,7 +910,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " እግዚአብሔርን ለሚወድ",
+        "title": "30. እግዚአብሔርን ለሚወድ",
         "lyrics": """
 እግዚአብሔርን ለሚወድ እንደሃሳቡ ለተጠሩ 
 ነገር ሁሉ ለበጎ ነው 
@@ -933,7 +935,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ገና ገና ! ",
+        "title": "31. ገና ገና ! ",
         "lyrics": """
 
 ገና ገና ገና ገና  ምኑን አየንና 
@@ -965,7 +967,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "እግዚአብሔር አምላኩ የሆነለት ",
+        "title": "32. እግዚአብሔር አምላኩ የሆነለት ",
         "lyrics": """
 እግዚአብሔር አምላኩ የሆነለት ያሰው
 በውሃ ፈሳሽ ዳር እንዳለ ተክል ነው /2/
@@ -994,7 +996,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ኑ ወገኖች ባንድነት ",
+        "title": "33. ኑ ወገኖች ባንድነት ",
         "lyrics": """
 1.የሱስ በመሰቀል ባደረገው ተጋድሎ የአጋንንት ሃይል ተቀጠቀጠ፣
 እርሱ በመስቀል ባደረገው ተጋድሎ ደዌ በሽታ ተቀጠቀጠ
@@ -1021,7 +1023,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ይሄ ነው ",
+        "title": "34. ይሄ ነው ",
         "lyrics": """
 ይሄ ነው ኢየሱስ ሞትን ድል ያረገው  
 ይሄ ነው ጌታዬ በአባቱ ቀኝ ያለው 
@@ -1052,7 +1054,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ክርስቲያን ሆይ",
+        "title": "35. ክርስቲያን ሆይ",
         "lyrics": """
 1.የክርስቶስ ሃይል ያድርብኝ ዘንድ በእኔ፣
 ልመካ እወዳለሁ በብዙ ድካሜ፣ 
@@ -1087,7 +1089,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ኢየሱስ ተነስቷል",
+        "title": "36. ኢየሱስ ተነስቷል",
         "lyrics": """
 ኢየሱስ ተነስቷል
 ሞትን በሞት ሽሯል
@@ -1117,7 +1119,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " አልናወጥም",
+        "title": "37. አልናወጥም",
         "lyrics": """
 
 አልናወጥም ልቤ ፅኑ ነው /2/ 
@@ -1148,7 +1150,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ዘመን ቢረዝምም ",
+        "title": "38. ዘመን ቢረዝምም ",
         "lyrics": """
 ዘመን ቢረዝምም ጌታ አላረጀህም  
 ዘመን ቢረዝምምኢየሱስ አልሸመገልክም 
@@ -1179,7 +1181,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ፍቅር ፍቅር ",
+        "title": "39. ፍቅር ፍቅር ",
         "lyrics": """
 1.ፍቅር ይታገሳል ቸርነት ያደርጋል፣ 
 የራሱን አይወድም ለደካሞች ያዝናል፣ 
@@ -1208,7 +1210,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ኢየሱስ አሸንፎሃል ",
+        "title": "40. ኢየሱስ አሸንፎሃል ",
         "lyrics": """
 1.ሄዋንን እንድትስት ክፉ የመከርካት 
 የጎልያድን ልብ የሞላህ በኩራት 
@@ -1242,7 +1244,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ደመናው ወርዶ ከቦናል",
+        "title": "41. ደመናው ወርዶ ከቦናል",
         "lyrics": """
 ደመናው ደመናው ወርዶ ከቦናል፣ 
 መንፈስ ቅዱስም ተሰጥቶናል 
@@ -1273,7 +1275,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ደሙ የክርስቶስ ደሙ",
+        "title": "42. ደሙ የክርስቶስ ደሙ",
         "lyrics": """
 1.በአዲስ ኪዳን ደሙ እኛ ተዋጅተናል፣ 
 ከሞት እጅ አምልጠን መዳን አግኝተናል፣ 
@@ -1304,7 +1306,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "እግዚአብሔር ሊሰራ ሲነሳ ",
+        "title": "43. እግዚአብሔር ሊሰራ ሲነሳ ",
         "lyrics": """
 1.አንበጣና ተምች ደጎብያ የበላብን ዘመን ይመለሳል፣ 
 የደረቀው መሬት ባርስነት ያበቅላል፣
@@ -1334,7 +1336,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ይመለሳል ጌታ ይመለሳል",
+        "title": "44. ይመለሳል ጌታ ይመለሳል",
         "lyrics": """
 1.የጦር ወሬ አለማችንን አጨናንቋል 
 የትንቢት ቃል እንደተፃፈው ተፈፅሟል 
@@ -1374,7 +1376,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "የፈረሰውን አበጃጅቶ ",
+        "title": "45. የፈረሰውን አበጃጅቶ ",
         "lyrics": """
 የፈረሰውን አበጃጅቶ የተናደውን ገንብቶ፣ 
 አቆመን እንደገና ለምስጋና፣ 
@@ -1408,7 +1410,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "የምስጋና ነዶ ",
+        "title": "46. የምስጋና ነዶ ",
         "lyrics": """
 የምስጋና ነዶ ለኢየሱስ ይዘን እንቀርባለን፣ 
 ለዋለልን ውለታ ምንስ ምላሽ እንሰጠዋለን፣ 
@@ -1438,7 +1440,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " የማዳንህን ኃይል",
+        "title": "47. የማዳንህን ኃይል",
         "lyrics": """
 ማዳንህን ኃይል ከሩቁ ሰምቼ 
 ልገናኝህ መጣሁ ሁሉን ነገር ትቼ 
@@ -1470,7 +1472,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " የመንፈሱ ማደርያዎች ነን",
+        "title": "48. የመንፈሱ ማደርያዎች ነን",
         "lyrics": """
 1.አዲስ መንፈስ በውስጣችሁ እኖራለሁ.
 ድንጋዩን ልብ ከስጋችሁ አወጣለሁ፣ 
@@ -1501,7 +1503,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " የኃይላችን ትምክህት",
+        "title": "49. የኃይላችን ትምክህት",
         "lyrics": """
 የኃላችን ትምክህት አንተ ነህ / 2 /
 ቀንዳችን ከፍ ከፍ አለ በሞገስህ / 2 /
@@ -1530,7 +1532,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ክብር ለሚገባው ",
+        "title": "50. ክብር ለሚገባው ",
         "lyrics": """
 ክብር ለሚገባው ክብርን እንሰጣለን 
 በእውነትና በመንፈስ እኛ እንሰግዳለን፡፡ 
@@ -1558,7 +1560,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ከምናስበውና ከምንጠብቀው በላይ ",
+        "title": "51. ከምናስበውና ከምንጠብቀው በላይ ",
         "lyrics": """
 ከምናስበውና ከምንጠብቀው በላይ 
 ሊያደርግ ለሚችለው ለእርሱ ክብሩ ይሁን፡፡ / 3 /  
@@ -1587,7 +1589,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ኦ መንፈስ ቅዱስ",
+        "title": "52. ኦ መንፈስ ቅዱስ",
         "lyrics": """
 1.ያላንተ ስናየው ጉባኤያችን ሙት ነው፣ 
 ያላንተ ስናየው አምልኮአችን ከንቱ ነው፣ 
@@ -1615,7 +1617,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ኦ ሐሌሉያ !",
+        "title": "53. ኦ ሐሌሉያ !",
         "lyrics": """
 ኦ ሐሌሉያ ክበር ክበር 
 የጌቶች ጌታ ነህ በሰማይ በምድር 
@@ -1640,7 +1642,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " እጁ አጭር አይደለም ",
+        "title": "54. እጁ አጭር አይደለም ",
         "lyrics": """
 1.እጁ አጭር አይደለም የእግዚአብሔር 
 ማዳን የተሳነው በብዙ በር 
@@ -1677,7 +1679,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ኢየሱስ ካለኝ",
+        "title": "55. ኢየሱስ ካለኝ",
         "lyrics": """
 1.ዛሬ እንዲህ ተውቦ አጊጦ የማየው 
 መጨረሻው ላያምር ከስፍራው ላላየው 
@@ -1710,7 +1712,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ኢየሱስ ይመጣል",
+        "title": "56. ኢየሱስ ይመጣል",
         "lyrics": """
 ይመጣል ኢየሱስ ይመጣል 
 ይመጣል ጌታ ይገለጣል፣ 
@@ -1741,7 +1743,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ታዲያ ለዚህ ጌታ",
+        "title": "57. ታዲያ ለዚህ ጌታ",
         "lyrics": """
 1.እንባዬን ከአይኔ ላይ ለጠረገው 
 ሸክሜን ከላዬ ላይ ላራገፈው
@@ -1772,7 +1774,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "አንተ በጎ ታማኝ ባርያ ",
+        "title": "58. አንተ በጎ ታማኝ ባርያ ",
         "lyrics": """
 አንተ በጎ ታማኝ ባርያ 
 ወደ አባትህ ደስታ ግባ  / 2X /
@@ -1805,7 +1807,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " አቤኔዘር እግዚአብሔር ረድቶናል",
+        "title": "59. አቤኔዘር እግዚአብሔር ረድቶናል",
         "lyrics": """
 አቤኔዘር እግዚአብሔር ተረድቶናል 
 ከምስራቅ ከምእራብ ከሰሜን ከደቡብ ሰብስቦናል
@@ -1837,7 +1839,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " አመስግኑት በጭብጨባ",
+        "title": "60. አመስግኑት በጭብጨባ",
         "lyrics": """
 አመስግኑት በጭብጨባ አመስግኑት በእልልታ 
 አመስግኑት በሽብሸባ አመስግኑት 
@@ -1867,7 +1869,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ና ተመለስ ",
+        "title": "61. ና ተመለስ ",
         "lyrics": """
 ና ተመለስ ልጄ ሆይ ና ተመለስ 
 ና ተመለስ ልጄ ሆይ ና ተመለስ 
@@ -1896,7 +1898,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ተው ስማ ",
+        "title": "62. ተው ስማ ",
         "lyrics": """
 ተው ስማ /2/
 እጆቹን ዘርግቶ ጌታ ይጠራሃል፣
@@ -1927,7 +1929,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ታላቅ ሰራዊት         ",
+        "title": "63. ታላቅ ሰራዊት         ",
         "lyrics": """
 ታላቅ ሰራዊት ወታደሮች ነን፣
 የጌታ የኢየሱስ አገልጋዮች ነን፣
@@ -1963,7 +1965,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ቸር ነውና",
+        "title": "64. ቸር ነውና",
         "lyrics": """
 ምህረቱ ማለዳ ማለዳ አዲስ ነው፣
 ርህራሄው ከቶ የማያልቅ አምላክ ነው፣
@@ -2032,7 +2034,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ባዶ ማሰሮ ",
+        "title": "65. ባዶ ማሰሮ ",
         "lyrics": """
 1.ተገኝ አንልህም አለህ መሃላችን፣
 ብናይህ ተገልጦ የመንፈስ አይናችን፣ 
@@ -2058,7 +2060,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "በእግዚአብሔር የታመኑ ",
+        "title": "66. በእግዚአብሔር የታመኑ ",
         "lyrics": """
 በእግዚአብሔር የታመኑ እንደማይታወክ፣
 እንደ ፅዮን ተራራ ናቸው፣
@@ -2089,7 +2091,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "በሰማይ በምድር ",
+        "title": "67. በሰማይ በምድር ",
         "lyrics": """
 በሰማይ በምድር ፀንተህ የምትኖር፣ 
 ሃይሉ እግዚአብሔር ምስጋና ዉዳሴ፣ 
@@ -2114,7 +2116,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ቆምኩኝ በተራራ",
+        "title": "68. ቆምኩኝ በተራራ",
         "lyrics": """
 1.ትላንት ያስጨነቀኝ ጠላቴ፣ 
 ጌቶ ሲቆጣ በውስጤ፣ 
@@ -2148,7 +2150,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ስላለፈው አሜን",
+        "title": "69. ስላለፈው አሜን",
         "lyrics": """
 ስላለፈው አሜን፣ ስለሚሆነው አሜን፣ 
 ስለሚመጣው አሜን፣ ስምህ ይባረክ አሜን
@@ -2182,7 +2184,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ምስጋና ይህም ያንስበታል ",
+        "title": "70. ምስጋና ይህም ያንስበታል ",
         "lyrics": """
 
 ምስጋና /3/ ይህም ያንስበታልና ምስጋና፣ /3/
@@ -2213,7 +2215,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ምስጋና በዝማሬ",
+        "title": "71. ምስጋና በዝማሬ",
         "lyrics": """
 ምስጋና በዝማሬ፣ 
 ምስጋና በእልልታ፣ 
@@ -2243,7 +2245,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ምስጋና አሃ ለኢየሱስ",
+        "title": "72. ምስጋና አሃ ለኢየሱስ",
         "lyrics": """
 ምስጋና አሃ ለኢየሱስ፣ 
 ምስጋና አሃ ለጌታ፣ 
@@ -2273,7 +2275,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ምስጋና በችግርም በደስታ",
+        "title": "73. ምስጋና በችግርም በደስታ",
         "lyrics": """
 ምስጋና፣በችግርም ምስጋና፣ 
 በደስታም እልልታ፣ ይገባዋል ለጌታ፡፡
@@ -2302,7 +2304,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ምህረቱን አባዛልን ",
+        "title": "74. ምህረቱን አባዛልን ",
         "lyrics": """
 ምህረቱን አባዛልን፣ /2/ 
 ምህረቱን ይቅርታ አረገልን፣ 
@@ -2330,7 +2332,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ማን አለ እግዚአብሔር ",
+        "title": "75. ማን አለ እግዚአብሔር ",
         "lyrics": """
 
 1.በቸገረን ጊዜ ወደ እግዚአብሔር ጮኽን፣ 
@@ -2363,7 +2365,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "መንገድና እውነት ",
+        "title": "76. መንገድና እውነት ",
         "lyrics": """
 1.እግዚአብሔር አብ አባት የተናረገለት፣ /2/
 አባቶች ነቢያት የተነበዩለት፣ 
@@ -2394,7 +2396,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "መልካም ጋብቻ ይሁንላችሁ ",
+        "title": "77. መልካም ጋብቻ ይሁንላችሁ ",
         "lyrics": """
 1.መልካም ጋብቻ ይሁንላችሁ ጌታ ይባርካችሁ፣ 
 ባላችሁ ነገር ደስ ይበላችሁ ሰላሙን ይስጣችሁ፣ 
@@ -2420,7 +2422,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " አዲስ ዝማሬ",
+        "title": "78. አዲስ ዝማሬ",
         "lyrics": """
 አዲስ ዝማሬ ያመረ እልልታ፣ 
 ለኢየሱስ ይሁን ለጌቶች ጌታ፣ 
@@ -2451,7 +2453,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ሊለይ ሊያጠራ ",
+        "title": "79. ሊለይ ሊያጠራ ",
         "lyrics": """
 ሊለይ ሊያጠራ ሊቀባ መጥቷል፣
 የእግዚአብሔር መንፈስ፡፡
@@ -2481,7 +2483,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ሀይል አለው ደሙ",
+        "title": "80. ሀይል አለው ደሙ",
         "lyrics": """
 ሀይል አለው የኢየሱስ ደሙ፣ ሀይል አለው የጌታ ደሙ፣ 
 ከሐጢአት የሚያነፃ፣ሀይል አለው የኢየሱስ ደሙ፣ 
@@ -2508,7 +2510,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ሀይል የመንፈስ ቅዱስ ሀይል ",
+        "title": "81. ሀይል የመንፈስ ቅዱስ ሀይል ",
         "lyrics": """
 ሃይል የመንፈስ ቅዱስ ሃይል፣ /3/
 ዛሬም ይፍሰስ በጉባዔው መሀል፡፡ 
@@ -2532,7 +2534,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "እየሰሩሳሌም ",
+        "title": "82. እየሰሩሳሌም ",
         "lyrics": """
 
 1.የአምላካችን ክብር የሚታይባት፣ 
@@ -2561,7 +2563,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " አላማችን ይህ ነው",
+        "title": "83. አላማችን ይህ ነው",
         "lyrics": """
 በዚህ ምድር ሳለን አላማችን ይህ ነው፣ 
 ሁሉን ነገር ትተን ጌታን ማስከበር ነው፣ 
@@ -2600,7 +2602,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ስምህ ከስሞች በላይ ነው",
+        "title": "84. ስምህ ከስሞች በላይ ነው",
         "lyrics": """
 ስምህ ከስሞች በላይ ነው (2) 
 እግዚአብሔር ያለልክ ከፍ ከፍ ያደረገው
@@ -2630,7 +2632,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "አየሁት ሲረዳኝ ",
+        "title": "85. አየሁት ሲረዳኝ ",
         "lyrics": """
 አየሁት ሲረዳኝ አየሁት፣ 
 አየሁት ሲያግዘን አየሁት፣ 
@@ -2661,7 +2663,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ምስጋና ይኸው ለጌታ",
+        "title": "86. ምስጋና ይኸው ለጌታ",
         "lyrics": """
 ምስጋና ይኸው ለጌታ፣
 ላዳነን ለረዳን ጌታ፣ 
@@ -2692,7 +2694,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "የእግዚአብሔር ፍቅር ",
+        "title": "87. የእግዚአብሔር ፍቅር ",
         "lyrics": """
 የእግዚአብሔር ፍቅር በልቤ ፈሶ 
 የአምላኬ ፍቅሩ በውስጤ ገብቶ 
@@ -2722,7 +2724,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ሌላ ቤት አለህ",
+        "title": "88. ሌላ ቤት አለህ",
         "lyrics": """
 ክርስቲያን ሆይ ሌላ ቤት አለህ
 ልብህን በምድር አትጣል
@@ -2752,7 +2754,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "አዋጁን በአዋጅ ሻረው ",
+        "title": "89. አዋጁን በአዋጅ ሻረው ",
         "lyrics": """
 አዋጁን ገለበጠው /2/ 
 ከፊት ወጣና ጌታ ጠላትን ጉድ አደረገው
@@ -2781,7 +2783,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " እንደርሱ የሚያድን ",
+        "title": "90. እንደርሱ የሚያድን ",
         "lyrics": """
 1.የሚሰማ ሰምቶ የሚመልስ
 በጭንቅ ሰአት ላይ የሚደርስ
@@ -2815,7 +2817,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "የለመኑትን የማይነሳ ",
+        "title": "91. የለመኑትን የማይነሳ ",
         "lyrics": """
 የለመኑትን የማይነሳ
 የነገሩትን የማይረሳ
@@ -2846,7 +2848,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "እንዴት ድንቅ ነው ",
+        "title": "92. እንዴት ድንቅ ነው ",
         "lyrics": """
 1.	ፍቅርህ ድንቅ ነው ጌታዬ
 ጥበቃህ ብዙ ነው ጋሻዬ
@@ -2874,7 +2876,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " በላይ በሰማይ ሰማያት",
+        "title": "93. በላይ በሰማይ ሰማያት",
         "lyrics": """
 በላይ በሰማይ ሰማያት
 በታች በምድር ክበብ ላይ
@@ -2905,7 +2907,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "አላማው ፍቅር ነው! ",
+        "title": "94. አላማው ፍቅር ነው! ",
         "lyrics": """
 ወዳጄ በኔ ላይ አላማው ፍቅር ነው ፍቅር ነው
 ወዳጄ በኔ ላይ አላማው ፍቅር ነው
@@ -2936,7 +2938,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ሀገር አለኝ",
+        "title": "95. ሀገር አለኝ",
         "lyrics": """
 
 1.በእጅ ያልተሰራ ድንቅ ሀገር
@@ -2973,7 +2975,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " አምባዬ ነህ!!!",
+        "title": "96. አምባዬ ነህ!!!",
         "lyrics": """
 1.መልካም እረኛ ነህ ሁሌ የምትመራኝ
 በለመለመው መስክ የምታሳድረኝ
@@ -3005,7 +3007,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": " ተነስቷል ኢየሱስ!",
+        "title": "97. ተነስቷል ኢየሱስ!",
         "lyrics": """
 ተነስቶአል የሱስ ተነስቶአል 
 ተነስቶ በክብር አርጓል 
@@ -3032,7 +3034,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ቃሉ ምርኩዝ ነው!! ",
+        "title": "98. ቃሉ ምርኩዝ ነው!! ",
         "lyrics": """
 
 1.የሐይሉ ታላቅነት ከርሱ ስለሆነ
@@ -3060,7 +3062,7 @@ AV: https://www.youtube.com/watch?v=Vids9w73NmM
 """
     },
     {
-        "title": "ኦ! ጌታ ስምህ ይባረክ  ",
+        "title": "99. ኦ! ጌታ ስምህ ይባረክ  ",
         "lyrics": """
 1.ወተን ወርደን ወዛችን ደርቆ በአለም ስንዳክር
 አንተ ቸር ነህ ተገናኘኸን በፍጹም ፍቅር
